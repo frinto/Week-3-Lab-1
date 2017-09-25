@@ -14,7 +14,7 @@
     <body>
         <h1>Main Page</h1>
         <p>
-            Hello, ${username} <a href ="login?successMessage=successfully logged out">Logout</a>
+            Hello, ${username} <a href ="index?successMessage=successfully logged out">Logout</a>
         </p>
     </body>
 </html>
