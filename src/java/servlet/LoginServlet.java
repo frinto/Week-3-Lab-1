@@ -50,11 +50,17 @@ public class LoginServlet extends HttpServlet {
             request.setAttribute("password", user.getPassword());
             request.setAttribute("errorMessage", message);
             url = "/WEB-INF/index.jsp";
-        } else if (user.getUsername().equals("betty") || user.getUsername().equals("adam") && user.getPassword().equals("password")) {
+        } else if (user.getUsername().equals("adam") && user.getPassword().equals("password")) {
             request.setAttribute("username", user.getUsername());
             request.setAttribute("successMessage", message);
             url = "/WEB-INF/mainPage.jsp";
-        } else {
+        } 
+        else if (user.getUsername().equals("betty") && user.getPassword().equals("password")) {
+            request.setAttribute("username", user.getUsername());
+            request.setAttribute("successMessage", message);
+            url = "/WEB-INF/mainPage.jsp";
+        }
+        else {
             message = "invalid username or password";
             request.setAttribute("username", user.getUsername());
             request.setAttribute("password", user.getPassword());
