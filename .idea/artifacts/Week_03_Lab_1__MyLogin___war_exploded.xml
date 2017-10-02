@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Week 03 Lab 1 – MyLogin -:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Week_03_Lab_1__MyLogin___war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Week 03 Lab 1 – MyLogin -/web/Web" />
+      <element id="javaee-facet-resources" facet="Week 03 Lab 1 – MyLogin -/web/Web2" />
+    </root>
+  </artifact>
+</component>
